@@ -12,7 +12,7 @@ lim = 1000
 
 
 def get_pythagorean_triplet():
-    for c in range(1, lim + 1):
+    for c in range(1, int(lim / 2)):
         for b in range(1, c + 1):
             for a in range(1, b + 1):
                 if not (a ** 2 + b ** 2 == c ** 2):
