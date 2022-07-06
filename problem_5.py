@@ -9,7 +9,7 @@ dividers = set(range(1, 21))
 found = False
 i = max(dividers)
 res = 0
-lim = 500000000
+lim = 500_000_000
 while True:
     for j in dividers:
         if i % j != 0:
