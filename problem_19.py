@@ -1,4 +1,5 @@
 """
+https://projecteuler.net/problem=19
 You are given the following information, but you may prefer to do some research for yourself.
 
 1 Jan 1900 was a Monday.
@@ -17,7 +18,7 @@ start_date = datetime.datetime.strptime("01/01/1901", '%d/%m/%Y')
 end_date = datetime.datetime.strptime("31/01/2000", '%d/%m/%Y')
 
 res = 0
-TARGET_DAY = 0 # Sunday
+TARGET_DAY = 0  # Sunday
 
 for d_ord in range(start_date.toordinal(), end_date.toordinal()):
     d = datetime.date.fromordinal(d_ord)
